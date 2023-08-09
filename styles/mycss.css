@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(323deg, #16B997 33%, #CF98D8 78%);
+    font-family: 'Michroma', sans-serif;
+}
+.nav-link {
+    color: rgb(179, 255, 0);
+}
+.navbar-nav .nav-link.active {
+    color: red;
+}
+.logo img {
+    width: 100px;
+}
+.navbar-toggler {
+    background-color: rgb(179, 255, 0);
+}
+.sidebar-right {
+    background: linear-gradient(360deg, #95AD12 1%, #CE36BB 100%);
+    color: antiquewhite;
+}
+.text-card, .footer-text{
+    color: aliceblue;
+    margin: auto auto;
+}
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+footer {
+    background: linear-gradient(73deg, #16B997 33%, #CF98D8 78%);
+    margin-top: 40px;
+}
+.medias-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
